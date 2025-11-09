@@ -1,0 +1,300 @@
+[
+  {
+    "id": 19,
+    "name": "Uncategorized",
+    "slug": "uncategorized",
+    "parent": 0
+  },
+  {
+    "id": 45,
+    "name": "ДЛЯ НЕГО",
+    "slug": "men",
+    "parent": 0,
+    "children": [
+      {
+        "id": 118,
+        "name": "Аксессуары",
+        "slug": "accessories",
+        "parent": 45,
+        "children": [
+          {
+            "id": 123,
+            "name": "Кепки",
+            "slug": "caps",
+            "parent": 118
+          },
+          {
+            "id": 125,
+            "name": "Кошельки и картхолдеры",
+            "slug": "wallets",
+            "parent": 118
+          },
+          {
+            "id": 121,
+            "name": "Ремни",
+            "slug": "belts",
+            "parent": 118
+          },
+          {
+            "id": 119,
+            "name": "Рюкзаки",
+            "slug": "backpacks",
+            "parent": 118
+          },
+          {
+            "id": 122,
+            "name": "Солнцезащитные очки",
+            "slug": "sunglasses",
+            "parent": 118
+          },
+          {
+            "id": 124,
+            "name": "Шапки",
+            "slug": "hats",
+            "parent": 118
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "name": "Обувь",
+        "slug": "shoes",
+        "parent": 45,
+        "children": [
+          {
+            "id": 104,
+            "name": "Ботинки",
+            "slug": "boots",
+            "parent": 101
+          },
+          {
+            "id": 103,
+            "name": "Кроссовки и кеды",
+            "slug": "sneakers",
+            "parent": 101
+          },
+          {
+            "id": 1171,
+            "name": "Тапки",
+            "slug": "slippers",
+            "parent": 101
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "name": "Одежда",
+        "slug": "clothes",
+        "parent": 45,
+        "children": [
+          {
+            "id": 111,
+            "name": "Джинсы",
+            "slug": "jeans",
+            "parent": 105
+          },
+          {
+            "id": 1178,
+            "name": "Зимние куртки",
+            "slug": "winter-jackets",
+            "parent": 105
+          },
+          {
+            "id": 1176,
+            "name": "Легкие куртки",
+            "slug": "light-jackets",
+            "parent": 105
+          },
+          {
+            "id": 1173,
+            "name": "Майки",
+            "slug": "singlets",
+            "parent": 105
+          },
+          {
+            "id": 1180,
+            "name": "Нижнее белье",
+            "slug": "underwear",
+            "parent": 105
+          },
+          {
+            "id": 107,
+            "name": "Рубашки",
+            "slug": "shirts",
+            "parent": 105
+          },
+          {
+            "id": 106,
+            "name": "Футболки",
+            "slug": "t-shirts",
+            "parent": 105
+          },
+          {
+            "id": 108,
+            "name": "Худи",
+            "slug": "hoodie",
+            "parent": 105
+          },
+          {
+            "id": 113,
+            "name": "Шорты",
+            "slug": "shorts",
+            "parent": 105
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "ДЛЯ НЕЕ",
+    "slug": "women",
+    "parent": 0,
+    "children": [
+      {
+        "id": 127,
+        "name": "Аксессуары",
+        "slug": "accessories-women",
+        "parent": 60,
+        "children": [
+          {
+            "id": 133,
+            "name": "Кепки",
+            "slug": "caps-accessories-women",
+            "parent": 127
+          },
+          {
+            "id": 131,
+            "name": "Кошельки и картхолдеры",
+            "slug": "wallets-accessories-women",
+            "parent": 127
+          },
+          {
+            "id": 136,
+            "name": "Ремни",
+            "slug": "belts-accessories-women",
+            "parent": 127
+          },
+          {
+            "id": 1182,
+            "name": "Рюкзаки",
+            "slug": "backpacks-accessories-women",
+            "parent": 127
+          },
+          {
+            "id": 134,
+            "name": "Солнцезащитные очки",
+            "slug": "sunglasses-accessories-women",
+            "parent": 127
+          },
+          {
+            "id": 1183,
+            "name": "Сумки",
+            "slug": "bags",
+            "parent": 127
+          },
+          {
+            "id": 132,
+            "name": "Шапки",
+            "slug": "hats-accessories-women",
+            "parent": 127
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "name": "Обувь",
+        "slug": "shoes-women",
+        "parent": 60,
+        "children": [
+          {
+            "id": 153,
+            "name": "Ботинки",
+            "slug": "boots-shoes-women",
+            "parent": 102
+          },
+          {
+            "id": 154,
+            "name": "Кроссовки и кеды",
+            "slug": "sneakers-shoes-women",
+            "parent": 102
+          },
+          {
+            "id": 1172,
+            "name": "Тапки",
+            "slug": "slippers-shoes-women",
+            "parent": 102
+          },
+          {
+            "id": 152,
+            "name": "Туфли",
+            "slug": "heels",
+            "parent": 102
+          }
+        ]
+      },
+      {
+        "id": 128,
+        "name": "Одежда",
+        "slug": "clothes-women",
+        "parent": 60,
+        "children": [
+          {
+            "id": 143,
+            "name": "Джинсы",
+            "slug": "jeans-clothes-women",
+            "parent": 128
+          },
+          {
+            "id": 1179,
+            "name": "Зимние куртки",
+            "slug": "winter-jackets-clothes-women",
+            "parent": 128
+          },
+          {
+            "id": 1177,
+            "name": "Легкие куртки",
+            "slug": "light-jackets-clothes-women",
+            "parent": 128
+          },
+          {
+            "id": 1174,
+            "name": "Майки",
+            "slug": "singlets-clothes-women",
+            "parent": 128
+          },
+          {
+            "id": 1181,
+            "name": "Нижнее белье",
+            "slug": "underwear-clothes-women",
+            "parent": 128
+          },
+          {
+            "id": 150,
+            "name": "Рубашки",
+            "slug": "shirts-clothes-women",
+            "parent": 128
+          },
+          {
+            "id": 151,
+            "name": "Футболки",
+            "slug": "t-shirts-clothes-women",
+            "parent": 128
+          },
+          {
+            "id": 149,
+            "name": "Худи",
+            "slug": "hoodies",
+            "parent": 128
+          },
+          {
+            "id": 1175,
+            "name": "Шорты",
+            "slug": "shorts-clothes-women",
+            "parent": 128
+          }
+        ]
+      }
+    ]
+  }
+]

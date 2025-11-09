@@ -1,0 +1,14 @@
+# Пример файла переменных окружения
+# Скопируйте этот файл в .env и заполните ваши реальные значения
+
+# API ключ для Poizon/Dewu
+POIZON_API_KEY=abae9a50-7543-4519-acea-b3fe3aa1abe8
+
+# WordPress/WooCommerce настройки
+WOO_SITE_URL=https://yoursite.com
+WOO_API_KEY=ck_your_consumer_key_here
+WOO_API_SECRET=cs_your_consumer_secret_here
+
+# Дополнительные настройки (опционально)
+SHOES_ATTR_ID=4
+CLOTHING_ATTR_ID=5

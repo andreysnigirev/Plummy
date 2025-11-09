@@ -1,0 +1,16 @@
+[
+  {
+    "id": 255,
+    "spu_id": "4454944",
+    "sku_id": "621318620",
+    "link": "https://dewu.com/product-detail?spuId=4454944",
+    "reason": "API returned no data"
+  },
+  {
+    "id": 533,
+    "spu_id": "7089789",
+    "sku_id": "639113867",
+    "link": "https://dewu.com/product-detail?spuId=7089789",
+    "reason": "API returned no data"
+  }
+]

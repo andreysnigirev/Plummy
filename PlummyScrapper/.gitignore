@@ -1,0 +1,12 @@
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+.env
+.env.*
+
+__pycache__
+
+# Execution state
+execution_state.json

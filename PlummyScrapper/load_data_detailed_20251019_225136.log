@@ -1,0 +1,592 @@
+2025-10-19 22:51:36,384 - INFO - ================================================================================
+2025-10-19 22:51:36,384 - INFO - НАЧАЛО ДЕТАЛЬНОГО ЛОГИРОВАНИЯ load_data
+2025-10-19 22:51:36,384 - INFO - Товаров к обработке: 61
+2025-10-19 22:51:36,384 - INFO - ================================================================================
+2025-10-19 22:51:36,385 - INFO - 
+================================================================================
+2025-10-19 22:51:36,385 - INFO - [1/61] НАЧАЛО ОБРАБОТКИ
+2025-10-19 22:51:36,385 - INFO - Product ID: 1827
+2025-10-19 22:51:36,385 - INFO - SPU ID: 2293743
+2025-10-19 22:51:36,385 - INFO - Reference SKU ID: 613190645
+2025-10-19 22:51:36,385 - INFO - ================================================================================
+2025-10-19 22:51:36,385 - INFO - ЭТАП 1: Загрузка данных из API (productDetailWithPrice)...
+2025-10-19 22:51:38,104 - INFO - ✓ Данные загружены, ключи верхнего уровня: ['modelSequence', 'price', 'lastSold', 'image', 'frontLabelSummaryDTO', 'basicParam', 'floorsModel', 'qaModel', 'imageAndTextMap', 'virtualImageAndTextModel', 'brandingModel', 'newService', 'favoriteData', 'extraToolModels', 'brandRootInfo']
+2025-10-19 22:51:38,104 - DEBUG - detail ключи: ['spuId', 'isSelf', 'categoryId', 'level1CategoryId', 'level2CategoryId', 'brandId', 'relationBrandIds', 'logoUrl', 'title', 'subTitle']
+2025-10-19 22:51:38,104 - INFO - ✓ Количество SKU: 29
+2025-10-19 22:51:38,104 - INFO - ✓ Все данные получены в одном запросе (productDetailWithPrice)
+2025-10-19 22:51:38,118 - INFO - ЭТАП 2: Обработка данных через ProductProcessor...
+2025-10-19 22:51:38,119 - INFO - Передаем reference_sku_id: 613190645
+2025-10-19 22:51:38,119 - INFO - Категории: [103, 154]
+2025-10-19 22:51:38,128 - ERROR - parse_product_detail вернул None
+2025-10-19 22:51:38,128 - ERROR - Возможные причины:
+2025-10-19 22:51:38,129 - ERROR -   - Нет товаров с допустимыми типами цен (2, 12, 0, 8, 11)
+2025-10-19 22:51:38,129 - ERROR -   - Все SKU отфильтрованы
+2025-10-19 22:51:38,129 - ERROR -   - Ошибка в структуре данных
+2025-10-19 22:51:38,131 - ERROR - ✗ ОШИБКА: Ошибка обработки данных
+2025-10-19 22:51:38,131 - ERROR - Полный traceback:
+2025-10-19 22:51:38,131 - ERROR - Traceback (most recent call last):
+  File "/Users/rishsh/PycharmProjects/PlummyScraper/commands/articles.py", line 541, in load_all_data
+    raise Exception("Ошибка обработки данных")
+Exception: Ошибка обработки данных
+
+2025-10-19 22:51:38,131 - INFO - ================================================================================
+
+2025-10-19 22:51:40,135 - INFO - 
+================================================================================
+2025-10-19 22:51:40,135 - INFO - [2/61] НАЧАЛО ОБРАБОТКИ
+2025-10-19 22:51:40,135 - INFO - Product ID: 1833
+2025-10-19 22:51:40,135 - INFO - SPU ID: 16125810
+2025-10-19 22:51:40,135 - INFO - Reference SKU ID: 743555210
+2025-10-19 22:51:40,135 - INFO - ================================================================================
+2025-10-19 22:51:40,135 - INFO - ЭТАП 1: Загрузка данных из API (productDetailWithPrice)...
+2025-10-19 22:51:42,444 - INFO - ✓ Данные загружены, ключи верхнего уровня: ['modelSequence', 'price', 'image', 'frontLabelSummaryDTO', 'basicParam', 'floorsModel', 'qaModel', 'imageAndTextMap', 'virtualImageAndTextModel', 'brandingModel', 'newService', 'favoriteData', 'extraToolModels', 'brandRootInfo', 'sizeDto']
+2025-10-19 22:51:42,444 - DEBUG - detail ключи: ['spuId', 'isSelf', 'categoryId', 'level1CategoryId', 'level2CategoryId', 'brandId', 'relationBrandIds', 'logoUrl', 'title', 'subTitle']
+2025-10-19 22:51:42,444 - INFO - ✓ Количество SKU: 22
+2025-10-19 22:51:42,444 - INFO - ✓ Все данные получены в одном запросе (productDetailWithPrice)
+2025-10-19 22:51:42,453 - INFO - ЭТАП 2: Обработка данных через ProductProcessor...
+2025-10-19 22:51:42,453 - INFO - Передаем reference_sku_id: 743555210
+2025-10-19 22:51:42,454 - INFO - Категории: [104, 153]
+2025-10-19 22:51:42,456 - ERROR - parse_product_detail вернул None
+2025-10-19 22:51:42,456 - ERROR - Возможные причины:
+2025-10-19 22:51:42,456 - ERROR -   - Нет товаров с допустимыми типами цен (2, 12, 0, 8, 11)
+2025-10-19 22:51:42,456 - ERROR -   - Все SKU отфильтрованы
+2025-10-19 22:51:42,456 - ERROR -   - Ошибка в структуре данных
+2025-10-19 22:51:42,459 - ERROR - ✗ ОШИБКА: Ошибка обработки данных
+2025-10-19 22:51:42,459 - ERROR - Полный traceback:
+2025-10-19 22:51:42,459 - ERROR - Traceback (most recent call last):
+  File "/Users/rishsh/PycharmProjects/PlummyScraper/commands/articles.py", line 541, in load_all_data
+    raise Exception("Ошибка обработки данных")
+Exception: Ошибка обработки данных
+
+2025-10-19 22:51:42,459 - INFO - ================================================================================
+
+2025-10-19 22:51:44,477 - INFO - 
+================================================================================
+2025-10-19 22:51:44,477 - INFO - [3/61] НАЧАЛО ОБРАБОТКИ
+2025-10-19 22:51:44,477 - INFO - Product ID: 1838
+2025-10-19 22:51:44,477 - INFO - SPU ID: 6766958
+2025-10-19 22:51:44,477 - INFO - Reference SKU ID: 636652229
+2025-10-19 22:51:44,477 - INFO - ================================================================================
+2025-10-19 22:51:44,477 - INFO - ЭТАП 1: Загрузка данных из API (productDetailWithPrice)...
+2025-10-19 22:51:45,969 - INFO - ✓ Данные загружены, ключи верхнего уровня: ['modelSequence', 'price', 'image', 'frontLabelSummaryDTO', 'basicParam', 'floorsModel', 'qaModel', 'imageAndTextMap', 'virtualImageAndTextModel', 'brandingModel', 'newService', 'favoriteData', 'extraToolModels', 'brandRootInfo', 'sizeDto']
+2025-10-19 22:51:45,970 - DEBUG - detail ключи: ['spuId', 'isSelf', 'categoryId', 'level1CategoryId', 'level2CategoryId', 'brandId', 'relationBrandIds', 'logoUrl', 'title', 'subTitle']
+2025-10-19 22:51:45,970 - INFO - ✓ Количество SKU: 54
+2025-10-19 22:51:45,970 - INFO - ✓ Все данные получены в одном запросе (productDetailWithPrice)
+2025-10-19 22:51:45,978 - INFO - ЭТАП 2: Обработка данных через ProductProcessor...
+2025-10-19 22:51:45,979 - INFO - Передаем reference_sku_id: 636652229
+2025-10-19 22:51:45,979 - INFO - Категории: [104, 153]
+2025-10-19 22:51:45,981 - ERROR - parse_product_detail вернул None
+2025-10-19 22:51:45,981 - ERROR - Возможные причины:
+2025-10-19 22:51:45,981 - ERROR -   - Нет товаров с допустимыми типами цен (2, 12, 0, 8, 11)
+2025-10-19 22:51:45,981 - ERROR -   - Все SKU отфильтрованы
+2025-10-19 22:51:45,981 - ERROR -   - Ошибка в структуре данных
+2025-10-19 22:51:45,982 - ERROR - ✗ ОШИБКА: Ошибка обработки данных
+2025-10-19 22:51:45,982 - ERROR - Полный traceback:
+2025-10-19 22:51:45,982 - ERROR - Traceback (most recent call last):
+  File "/Users/rishsh/PycharmProjects/PlummyScraper/commands/articles.py", line 541, in load_all_data
+    raise Exception("Ошибка обработки данных")
+Exception: Ошибка обработки данных
+
+2025-10-19 22:51:45,982 - INFO - ================================================================================
+
+2025-10-19 22:51:47,986 - INFO - 
+================================================================================
+2025-10-19 22:51:47,987 - INFO - [4/61] НАЧАЛО ОБРАБОТКИ
+2025-10-19 22:51:47,987 - INFO - Product ID: 1844
+2025-10-19 22:51:47,987 - INFO - SPU ID: 19525545
+2025-10-19 22:51:47,987 - INFO - Reference SKU ID: 798638457
+2025-10-19 22:51:47,987 - INFO - ================================================================================
+2025-10-19 22:51:47,987 - INFO - ЭТАП 1: Загрузка данных из API (productDetailWithPrice)...
+2025-10-19 22:51:49,228 - INFO - ✓ Данные загружены, ключи верхнего уровня: ['modelSequence', 'price', 'lastSold', 'image', 'frontLabelSummaryDTO', 'basicParam', 'floorsModel', 'qaModel', 'imageAndTextMap', 'virtualImageAndTextModel', 'brandingModel', 'newService', 'favoriteData', 'extraToolModels', 'brandRootInfo']
+2025-10-19 22:51:49,228 - DEBUG - detail ключи: ['spuId', 'isSelf', 'categoryId', 'level1CategoryId', 'level2CategoryId', 'brandId', 'relationBrandIds', 'logoUrl', 'title', 'subTitle']
+2025-10-19 22:51:49,228 - INFO - ✓ Количество SKU: 5
+2025-10-19 22:51:49,228 - INFO - ✓ Все данные получены в одном запросе (productDetailWithPrice)
+2025-10-19 22:51:49,236 - INFO - ЭТАП 2: Обработка данных через ProductProcessor...
+2025-10-19 22:51:49,236 - INFO - Передаем reference_sku_id: 798638457
+2025-10-19 22:51:49,236 - INFO - Категории: [108, 149]
+2025-10-19 22:51:49,237 - ERROR - parse_product_detail вернул None
+2025-10-19 22:51:49,237 - ERROR - Возможные причины:
+2025-10-19 22:51:49,237 - ERROR -   - Нет товаров с допустимыми типами цен (2, 12, 0, 8, 11)
+2025-10-19 22:51:49,237 - ERROR -   - Все SKU отфильтрованы
+2025-10-19 22:51:49,237 - ERROR -   - Ошибка в структуре данных
+2025-10-19 22:51:49,238 - ERROR - ✗ ОШИБКА: Ошибка обработки данных
+2025-10-19 22:51:49,238 - ERROR - Полный traceback:
+2025-10-19 22:51:49,238 - ERROR - Traceback (most recent call last):
+  File "/Users/rishsh/PycharmProjects/PlummyScraper/commands/articles.py", line 541, in load_all_data
+    raise Exception("Ошибка обработки данных")
+Exception: Ошибка обработки данных
+
+2025-10-19 22:51:49,239 - INFO - ================================================================================
+
+2025-10-19 22:51:51,241 - INFO - 
+================================================================================
+2025-10-19 22:51:51,241 - INFO - [5/61] НАЧАЛО ОБРАБОТКИ
+2025-10-19 22:51:51,242 - INFO - Product ID: 1852
+2025-10-19 22:51:51,242 - INFO - SPU ID: 19039138
+2025-10-19 22:51:51,242 - INFO - Reference SKU ID: 798565764
+2025-10-19 22:51:51,242 - INFO - ================================================================================
+2025-10-19 22:51:51,242 - INFO - ЭТАП 1: Загрузка данных из API (productDetailWithPrice)...
+2025-10-19 22:51:52,734 - INFO - ✓ Данные загружены, ключи верхнего уровня: ['modelSequence', 'price', 'lastSold', 'image', 'frontLabelSummaryDTO', 'atmosphere', 'basicParam', 'floorsModel', 'qaModel', 'imageAndTextMap', 'virtualImageAndTextModel', 'brandingModel', 'commonTipsModel', 'newService', 'favoriteData']
+2025-10-19 22:51:52,734 - DEBUG - detail ключи: ['spuId', 'isSelf', 'categoryId', 'level1CategoryId', 'level2CategoryId', 'brandId', 'relationBrandIds', 'logoUrl', 'title', 'subTitle']
+2025-10-19 22:51:52,734 - INFO - ✓ Количество SKU: 18
+2025-10-19 22:51:52,734 - INFO - ✓ Все данные получены в одном запросе (productDetailWithPrice)
+2025-10-19 22:51:52,744 - INFO - ЭТАП 2: Обработка данных через ProductProcessor...
+2025-10-19 22:51:52,744 - INFO - Передаем reference_sku_id: 798565764
+2025-10-19 22:51:52,744 - INFO - Категории: [103, 154]
+2025-10-19 22:51:52,745 - INFO - ✓ Данные обработаны, ключи: ['spu_id', 'title', 'brand', 'category', 'category_id', 'article_number', 'main_image_url', 'images', 'variants', 'is_active']
+2025-10-19 22:51:52,745 - INFO - Название товара: New Balance NB 1906R Cordura
+2025-10-19 22:51:52,745 - INFO - Бренд: New Balance
+2025-10-19 22:51:52,745 - INFO - ✓ Получено вариантов: 1
+2025-10-19 22:51:52,745 - DEBUG -   Вариант 1: размер=ONE SIZE, цена=509.0 CNY
+2025-10-19 22:51:52,745 - INFO - ЭТАП 4: Сохранение в БД...
+2025-10-19 22:51:52,771 - ERROR - db.load_product_data вернул False
+2025-10-19 22:51:52,771 - ERROR - ✗ ОШИБКА: Ошибка сохранения в БД
+2025-10-19 22:51:52,771 - ERROR - Полный traceback:
+2025-10-19 22:51:52,771 - ERROR - Traceback (most recent call last):
+  File "/Users/rishsh/PycharmProjects/PlummyScraper/commands/articles.py", line 574, in load_all_data
+    raise Exception("Ошибка сохранения в БД")
+Exception: Ошибка сохранения в БД
+
+2025-10-19 22:51:52,771 - INFO - ================================================================================
+
+2025-10-19 22:51:54,774 - INFO - 
+================================================================================
+2025-10-19 22:51:54,775 - INFO - [6/61] НАЧАЛО ОБРАБОТКИ
+2025-10-19 22:51:54,775 - INFO - Product ID: 1855
+2025-10-19 22:51:54,775 - INFO - SPU ID: 26151471
+2025-10-19 22:51:54,775 - INFO - Reference SKU ID: 912144524
+2025-10-19 22:51:54,775 - INFO - ================================================================================
+2025-10-19 22:51:54,775 - INFO - ЭТАП 1: Загрузка данных из API (productDetailWithPrice)...
+2025-10-19 22:51:56,063 - INFO - ✓ Данные загружены, ключи верхнего уровня: ['modelSequence', 'price', 'image', 'frontLabelSummaryDTO', 'basicParam', 'floorsModel', 'qaModel', 'imageAndTextMap', 'virtualImageAndTextModel', 'brandingModel', 'newService', 'favoriteData', 'extraToolModels', 'sizeDto', 'detail']
+2025-10-19 22:51:56,063 - DEBUG - detail ключи: ['spuId', 'isSelf', 'categoryId', 'level1CategoryId', 'level2CategoryId', 'brandId', 'relationBrandIds', 'logoUrl', 'title', 'subTitle']
+2025-10-19 22:51:56,063 - INFO - ✓ Количество SKU: 7
+2025-10-19 22:51:56,063 - INFO - ✓ Все данные получены в одном запросе (productDetailWithPrice)
+2025-10-19 22:51:56,080 - INFO - ЭТАП 2: Обработка данных через ProductProcessor...
+2025-10-19 22:51:56,080 - INFO - Передаем reference_sku_id: 912144524
+2025-10-19 22:51:56,081 - INFO - Категории: [113, 1175]
+2025-10-19 22:51:56,081 - ERROR - parse_product_detail вернул None
+2025-10-19 22:51:56,082 - ERROR - Возможные причины:
+2025-10-19 22:51:56,082 - ERROR -   - Нет товаров с допустимыми типами цен (2, 12, 0, 8, 11)
+2025-10-19 22:51:56,082 - ERROR -   - Все SKU отфильтрованы
+2025-10-19 22:51:56,082 - ERROR -   - Ошибка в структуре данных
+2025-10-19 22:51:56,083 - ERROR - ✗ ОШИБКА: Ошибка обработки данных
+2025-10-19 22:51:56,083 - ERROR - Полный traceback:
+2025-10-19 22:51:56,083 - ERROR - Traceback (most recent call last):
+  File "/Users/rishsh/PycharmProjects/PlummyScraper/commands/articles.py", line 541, in load_all_data
+    raise Exception("Ошибка обработки данных")
+Exception: Ошибка обработки данных
+
+2025-10-19 22:51:56,083 - INFO - ================================================================================
+
+2025-10-19 22:51:58,086 - INFO - 
+================================================================================
+2025-10-19 22:51:58,086 - INFO - [7/61] НАЧАЛО ОБРАБОТКИ
+2025-10-19 22:51:58,086 - INFO - Product ID: 1870
+2025-10-19 22:51:58,086 - INFO - SPU ID: 19401892
+2025-10-19 22:51:58,086 - INFO - Reference SKU ID: 796899315
+2025-10-19 22:51:58,086 - INFO - ================================================================================
+2025-10-19 22:51:58,086 - INFO - ЭТАП 1: Загрузка данных из API (productDetailWithPrice)...
+2025-10-19 22:51:59,185 - INFO - ✓ Данные загружены, ключи верхнего уровня: ['modelSequence', 'price', 'image', 'frontLabelSummaryDTO', 'basicParam', 'floorsModel', 'qaModel', 'imageAndTextMap', 'virtualImageAndTextModel', 'brandingModel', 'newService', 'favoriteData', 'extraToolModels', 'brandRootInfo', 'sizeDto']
+2025-10-19 22:51:59,186 - DEBUG - detail ключи: ['spuId', 'isSelf', 'categoryId', 'level1CategoryId', 'level2CategoryId', 'brandId', 'relationBrandIds', 'logoUrl', 'title', 'subTitle']
+2025-10-19 22:51:59,186 - INFO - ✓ Количество SKU: 9
+2025-10-19 22:51:59,186 - INFO - ✓ Все данные получены в одном запросе (productDetailWithPrice)
+2025-10-19 22:51:59,195 - INFO - ЭТАП 2: Обработка данных через ProductProcessor...
+2025-10-19 22:51:59,195 - INFO - Передаем reference_sku_id: 796899315
+2025-10-19 22:51:59,195 - INFO - Категории: [1181]
+2025-10-19 22:51:59,196 - ERROR - parse_product_detail вернул None
+2025-10-19 22:51:59,197 - ERROR - Возможные причины:
+2025-10-19 22:51:59,197 - ERROR -   - Нет товаров с допустимыми типами цен (2, 12, 0, 8, 11)
+2025-10-19 22:51:59,197 - ERROR -   - Все SKU отфильтрованы
+2025-10-19 22:51:59,197 - ERROR -   - Ошибка в структуре данных
+2025-10-19 22:51:59,198 - ERROR - ✗ ОШИБКА: Ошибка обработки данных
+2025-10-19 22:51:59,198 - ERROR - Полный traceback:
+2025-10-19 22:51:59,198 - ERROR - Traceback (most recent call last):
+  File "/Users/rishsh/PycharmProjects/PlummyScraper/commands/articles.py", line 541, in load_all_data
+    raise Exception("Ошибка обработки данных")
+Exception: Ошибка обработки данных
+
+2025-10-19 22:51:59,198 - INFO - ================================================================================
+
+2025-10-19 22:52:01,199 - INFO - 
+================================================================================
+2025-10-19 22:52:01,200 - INFO - [8/61] НАЧАЛО ОБРАБОТКИ
+2025-10-19 22:52:01,200 - INFO - Product ID: 1900
+2025-10-19 22:52:01,200 - INFO - SPU ID: 1961464
+2025-10-19 22:52:01,200 - INFO - Reference SKU ID: 606176789
+2025-10-19 22:52:01,200 - INFO - ================================================================================
+2025-10-19 22:52:01,200 - INFO - ЭТАП 1: Загрузка данных из API (productDetailWithPrice)...
+2025-10-19 22:52:04,373 - INFO - ✓ Данные загружены, ключи верхнего уровня: ['modelSequence', 'price', 'lastSold', 'image', 'frontLabelSummaryDTO', 'basicParam', 'floorsModel', 'qaModel', 'imageAndTextMap', 'virtualImageAndTextModel', 'brandingModel', 'newService', 'favoriteData', 'extraToolModels', 'brandRootInfo']
+2025-10-19 22:52:04,373 - DEBUG - detail ключи: ['spuId', 'isSelf', 'categoryId', 'level1CategoryId', 'level2CategoryId', 'brandId', 'relationBrandIds', 'logoUrl', 'title', 'subTitle']
+2025-10-19 22:52:04,373 - INFO - ✓ Количество SKU: 1
+2025-10-19 22:52:04,373 - INFO - ✓ Все данные получены в одном запросе (productDetailWithPrice)
+2025-10-19 22:52:04,386 - INFO - ЭТАП 2: Обработка данных через ProductProcessor...
+2025-10-19 22:52:04,387 - INFO - Передаем reference_sku_id: 606176789
+2025-10-19 22:52:04,387 - INFO - Категории: [119, 1182]
+2025-10-19 22:52:04,388 - ERROR - parse_product_detail вернул None
+2025-10-19 22:52:04,389 - ERROR - Возможные причины:
+2025-10-19 22:52:04,389 - ERROR -   - Нет товаров с допустимыми типами цен (2, 12, 0, 8, 11)
+2025-10-19 22:52:04,389 - ERROR -   - Все SKU отфильтрованы
+2025-10-19 22:52:04,389 - ERROR -   - Ошибка в структуре данных
+2025-10-19 22:52:04,390 - ERROR - ✗ ОШИБКА: Ошибка обработки данных
+2025-10-19 22:52:04,390 - ERROR - Полный traceback:
+2025-10-19 22:52:04,390 - ERROR - Traceback (most recent call last):
+  File "/Users/rishsh/PycharmProjects/PlummyScraper/commands/articles.py", line 541, in load_all_data
+    raise Exception("Ошибка обработки данных")
+Exception: Ошибка обработки данных
+
+2025-10-19 22:52:04,390 - INFO - ================================================================================
+
+2025-10-19 22:52:06,391 - INFO - 
+================================================================================
+2025-10-19 22:52:06,391 - INFO - [9/61] НАЧАЛО ОБРАБОТКИ
+2025-10-19 22:52:06,391 - INFO - Product ID: 1901
+2025-10-19 22:52:06,391 - INFO - SPU ID: 1001613
+2025-10-19 22:52:06,391 - INFO - Reference SKU ID: 600011619
+2025-10-19 22:52:06,392 - INFO - ================================================================================
+2025-10-19 22:52:06,392 - INFO - ЭТАП 1: Загрузка данных из API (productDetailWithPrice)...
+2025-10-19 22:52:07,922 - INFO - ✓ Данные загружены, ключи верхнего уровня: ['modelSequence', 'price', 'lastSold', 'image', 'frontLabelSummaryDTO', 'basicParam', 'floorsModel', 'qaModel', 'imageAndTextMap', 'virtualImageAndTextModel', 'brandingModel', 'newService', 'favoriteData', 'extraToolModels', 'brandRootInfo']
+2025-10-19 22:52:07,924 - DEBUG - detail ключи: ['spuId', 'isSelf', 'categoryId', 'level1CategoryId', 'level2CategoryId', 'brandId', 'relationBrandIds', 'logoUrl', 'title', 'subTitle']
+2025-10-19 22:52:07,925 - INFO - ✓ Количество SKU: 4
+2025-10-19 22:52:07,925 - INFO - ✓ Все данные получены в одном запросе (productDetailWithPrice)
+2025-10-19 22:52:07,939 - INFO - ЭТАП 2: Обработка данных через ProductProcessor...
+2025-10-19 22:52:07,940 - INFO - Передаем reference_sku_id: 600011619
+2025-10-19 22:52:07,940 - INFO - Категории: [119, 1182]
+2025-10-19 22:52:07,943 - ERROR - parse_product_detail вернул None
+2025-10-19 22:52:07,943 - ERROR - Возможные причины:
+2025-10-19 22:52:07,943 - ERROR -   - Нет товаров с допустимыми типами цен (2, 12, 0, 8, 11)
+2025-10-19 22:52:07,943 - ERROR -   - Все SKU отфильтрованы
+2025-10-19 22:52:07,943 - ERROR -   - Ошибка в структуре данных
+2025-10-19 22:52:07,944 - ERROR - ✗ ОШИБКА: Ошибка обработки данных
+2025-10-19 22:52:07,945 - ERROR - Полный traceback:
+2025-10-19 22:52:07,945 - ERROR - Traceback (most recent call last):
+  File "/Users/rishsh/PycharmProjects/PlummyScraper/commands/articles.py", line 541, in load_all_data
+    raise Exception("Ошибка обработки данных")
+Exception: Ошибка обработки данных
+
+2025-10-19 22:52:07,945 - INFO - ================================================================================
+
+2025-10-19 22:52:09,950 - INFO - 
+================================================================================
+2025-10-19 22:52:09,951 - INFO - [10/61] НАЧАЛО ОБРАБОТКИ
+2025-10-19 22:52:09,951 - INFO - Product ID: 1902
+2025-10-19 22:52:09,951 - INFO - SPU ID: 8889982
+2025-10-19 22:52:09,951 - INFO - Reference SKU ID: 667679847
+2025-10-19 22:52:09,951 - INFO - ================================================================================
+2025-10-19 22:52:09,951 - INFO - ЭТАП 1: Загрузка данных из API (productDetailWithPrice)...
+2025-10-19 22:52:22,546 - INFO - ✓ Данные загружены, ключи верхнего уровня: ['modelSequence', 'price', 'lastSold', 'image', 'frontLabelSummaryDTO', 'basicParam', 'floorsModel', 'qaModel', 'imageAndTextMap', 'virtualImageAndTextModel', 'brandingModel', 'newService', 'favoriteData', 'extraToolModels', 'brandRootInfo']
+2025-10-19 22:52:22,547 - DEBUG - detail ключи: ['spuId', 'isSelf', 'categoryId', 'level1CategoryId', 'level2CategoryId', 'brandId', 'relationBrandIds', 'logoUrl', 'title', 'subTitle']
+2025-10-19 22:52:22,548 - INFO - ✓ Количество SKU: 10
+2025-10-19 22:52:22,548 - INFO - ✓ Все данные получены в одном запросе (productDetailWithPrice)
+2025-10-19 22:52:22,562 - INFO - ЭТАП 2: Обработка данных через ProductProcessor...
+2025-10-19 22:52:22,562 - INFO - Передаем reference_sku_id: 667679847
+2025-10-19 22:52:22,562 - INFO - Категории: [119, 1182]
+2025-10-19 22:52:22,566 - INFO - ✓ Данные обработаны, ключи: ['spu_id', 'title', 'brand', 'category', 'category_id', 'article_number', 'main_image_url', 'images', 'variants', 'is_active']
+2025-10-19 22:52:22,566 - INFO - Название товара: Dickies Logo
+2025-10-19 22:52:22,566 - INFO - Бренд: Dickies
+2025-10-19 22:52:22,566 - INFO - ✓ Получено вариантов: 1
+2025-10-19 22:52:22,567 - DEBUG -   Вариант 1: размер=47, цена=149.0 CNY
+2025-10-19 22:52:22,567 - INFO - ЭТАП 4: Сохранение в БД...
+2025-10-19 22:52:22,609 - INFO - ✓ УСПЕХ: Данные сохранены в БД
+2025-10-19 22:52:22,609 - INFO - Название (краткое): Dickies Logo
+2025-10-19 22:52:22,609 - INFO - ================================================================================
+
+2025-10-19 22:52:24,612 - INFO - 
+================================================================================
+2025-10-19 22:52:24,613 - INFO - [11/61] НАЧАЛО ОБРАБОТКИ
+2025-10-19 22:52:24,613 - INFO - Product ID: 1903
+2025-10-19 22:52:24,613 - INFO - SPU ID: 8889982
+2025-10-19 22:52:24,613 - INFO - Reference SKU ID: 679650389
+2025-10-19 22:52:24,613 - INFO - ================================================================================
+2025-10-19 22:52:24,613 - INFO - ЭТАП 1: Загрузка данных из API (productDetailWithPrice)...
+2025-10-19 22:52:26,736 - INFO - ✓ Данные загружены, ключи верхнего уровня: ['modelSequence', 'price', 'lastSold', 'image', 'frontLabelSummaryDTO', 'basicParam', 'floorsModel', 'qaModel', 'imageAndTextMap', 'virtualImageAndTextModel', 'brandingModel', 'newService', 'favoriteData', 'extraToolModels', 'brandRootInfo']
+2025-10-19 22:52:26,736 - DEBUG - detail ключи: ['spuId', 'isSelf', 'categoryId', 'level1CategoryId', 'level2CategoryId', 'brandId', 'relationBrandIds', 'logoUrl', 'title', 'subTitle']
+2025-10-19 22:52:26,737 - INFO - ✓ Количество SKU: 10
+2025-10-19 22:52:26,737 - INFO - ✓ Все данные получены в одном запросе (productDetailWithPrice)
+2025-10-19 22:52:26,748 - INFO - ЭТАП 2: Обработка данных через ProductProcessor...
+2025-10-19 22:52:26,748 - INFO - Передаем reference_sku_id: 679650389
+2025-10-19 22:52:26,749 - INFO - Категории: [119, 1182]
+2025-10-19 22:52:26,750 - ERROR - parse_product_detail вернул None
+2025-10-19 22:52:26,750 - ERROR - Возможные причины:
+2025-10-19 22:52:26,750 - ERROR -   - Нет товаров с допустимыми типами цен (2, 12, 0, 8, 11)
+2025-10-19 22:52:26,750 - ERROR -   - Все SKU отфильтрованы
+2025-10-19 22:52:26,750 - ERROR -   - Ошибка в структуре данных
+2025-10-19 22:52:26,753 - ERROR - ✗ ОШИБКА: Ошибка обработки данных
+2025-10-19 22:52:26,754 - ERROR - Полный traceback:
+2025-10-19 22:52:26,754 - ERROR - Traceback (most recent call last):
+  File "/Users/rishsh/PycharmProjects/PlummyScraper/commands/articles.py", line 541, in load_all_data
+    raise Exception("Ошибка обработки данных")
+Exception: Ошибка обработки данных
+
+2025-10-19 22:52:26,754 - INFO - ================================================================================
+
+2025-10-19 22:52:28,755 - INFO - 
+================================================================================
+2025-10-19 22:52:28,755 - INFO - [12/61] НАЧАЛО ОБРАБОТКИ
+2025-10-19 22:52:28,755 - INFO - Product ID: 1904
+2025-10-19 22:52:28,755 - INFO - SPU ID: 1120310
+2025-10-19 22:52:28,755 - INFO - Reference SKU ID: 600849686
+2025-10-19 22:52:28,755 - INFO - ================================================================================
+2025-10-19 22:52:28,756 - INFO - ЭТАП 1: Загрузка данных из API (productDetailWithPrice)...
+2025-10-19 22:52:30,278 - INFO - ✓ Данные загружены, ключи верхнего уровня: ['modelSequence', 'price', 'lastSold', 'image', 'frontLabelSummaryDTO', 'basicParam', 'floorsModel', 'qaModel', 'imageAndTextMap', 'virtualImageAndTextModel', 'brandingModel', 'newService', 'favoriteData', 'extraToolModels', 'brandRootInfo']
+2025-10-19 22:52:30,279 - DEBUG - detail ключи: ['spuId', 'isSelf', 'categoryId', 'level1CategoryId', 'level2CategoryId', 'brandId', 'relationBrandIds', 'logoUrl', 'title', 'subTitle']
+2025-10-19 22:52:30,279 - INFO - ✓ Количество SKU: 1
+2025-10-19 22:52:30,279 - INFO - ✓ Все данные получены в одном запросе (productDetailWithPrice)
+2025-10-19 22:52:30,290 - INFO - ЭТАП 2: Обработка данных через ProductProcessor...
+2025-10-19 22:52:30,290 - INFO - Передаем reference_sku_id: 600849686
+2025-10-19 22:52:30,290 - INFO - Категории: [119, 1182]
+2025-10-19 22:52:30,291 - ERROR - parse_product_detail вернул None
+2025-10-19 22:52:30,291 - ERROR - Возможные причины:
+2025-10-19 22:52:30,291 - ERROR -   - Нет товаров с допустимыми типами цен (2, 12, 0, 8, 11)
+2025-10-19 22:52:30,291 - ERROR -   - Все SKU отфильтрованы
+2025-10-19 22:52:30,291 - ERROR -   - Ошибка в структуре данных
+2025-10-19 22:52:30,292 - ERROR - ✗ ОШИБКА: Ошибка обработки данных
+2025-10-19 22:52:30,292 - ERROR - Полный traceback:
+2025-10-19 22:52:30,292 - ERROR - Traceback (most recent call last):
+  File "/Users/rishsh/PycharmProjects/PlummyScraper/commands/articles.py", line 541, in load_all_data
+    raise Exception("Ошибка обработки данных")
+Exception: Ошибка обработки данных
+
+2025-10-19 22:52:30,293 - INFO - ================================================================================
+
+2025-10-19 22:52:32,294 - INFO - 
+================================================================================
+2025-10-19 22:52:32,294 - INFO - [13/61] НАЧАЛО ОБРАБОТКИ
+2025-10-19 22:52:32,294 - INFO - Product ID: 1905
+2025-10-19 22:52:32,294 - INFO - SPU ID: 3866491
+2025-10-19 22:52:32,294 - INFO - Reference SKU ID: 617803617
+2025-10-19 22:52:32,294 - INFO - ================================================================================
+2025-10-19 22:52:32,294 - INFO - ЭТАП 1: Загрузка данных из API (productDetailWithPrice)...
+2025-10-19 22:52:34,177 - INFO - ✓ Данные загружены, ключи верхнего уровня: ['modelSequence', 'price', 'lastSold', 'image', 'frontLabelSummaryDTO', 'basicParam', 'floorsModel', 'qaModel', 'imageAndTextMap', 'virtualImageAndTextModel', 'brandingModel', 'newService', 'favoriteData', 'extraToolModels', 'brandRootInfo']
+2025-10-19 22:52:34,177 - DEBUG - detail ключи: ['spuId', 'isSelf', 'categoryId', 'level1CategoryId', 'level2CategoryId', 'brandId', 'relationBrandIds', 'logoUrl', 'title', 'subTitle']
+2025-10-19 22:52:34,177 - INFO - ✓ Количество SKU: 21
+2025-10-19 22:52:34,177 - INFO - ✓ Все данные получены в одном запросе (productDetailWithPrice)
+2025-10-19 22:52:34,187 - INFO - ЭТАП 2: Обработка данных через ProductProcessor...
+2025-10-19 22:52:34,187 - INFO - Передаем reference_sku_id: 617803617
+2025-10-19 22:52:34,187 - INFO - Категории: [119, 1182]
+2025-10-19 22:52:34,188 - INFO - ✓ Данные обработаны, ключи: ['spu_id', 'title', 'brand', 'category', 'category_id', 'article_number', 'main_image_url', 'images', 'variants', 'is_active']
+2025-10-19 22:52:34,188 - INFO - Название товара: ONRF PVC
+2025-10-19 22:52:34,188 - INFO - Бренд: ONRF
+2025-10-19 22:52:34,188 - INFO - ✓ Получено вариантов: 1
+2025-10-19 22:52:34,188 - DEBUG -   Вариант 1: размер=ONE SIZE, цена=299.0 CNY
+2025-10-19 22:52:34,188 - INFO - ЭТАП 4: Сохранение в БД...
+2025-10-19 22:52:34,195 - ERROR - db.load_product_data вернул False
+2025-10-19 22:52:34,196 - ERROR - ✗ ОШИБКА: Ошибка сохранения в БД
+2025-10-19 22:52:34,196 - ERROR - Полный traceback:
+2025-10-19 22:52:34,196 - ERROR - Traceback (most recent call last):
+  File "/Users/rishsh/PycharmProjects/PlummyScraper/commands/articles.py", line 574, in load_all_data
+    raise Exception("Ошибка сохранения в БД")
+Exception: Ошибка сохранения в БД
+
+2025-10-19 22:52:34,196 - INFO - ================================================================================
+
+2025-10-19 22:52:36,198 - INFO - 
+================================================================================
+2025-10-19 22:52:36,199 - INFO - [14/61] НАЧАЛО ОБРАБОТКИ
+2025-10-19 22:52:36,199 - INFO - Product ID: 1906
+2025-10-19 22:52:36,199 - INFO - SPU ID: 5376057
+2025-10-19 22:52:36,199 - INFO - Reference SKU ID: 628944805
+2025-10-19 22:52:36,199 - INFO - ================================================================================
+2025-10-19 22:52:36,200 - INFO - ЭТАП 1: Загрузка данных из API (productDetailWithPrice)...
+2025-10-19 22:52:38,051 - INFO - ✓ Данные загружены, ключи верхнего уровня: ['modelSequence', 'price', 'lastSold', 'image', 'frontLabelSummaryDTO', 'basicParam', 'floorsModel', 'qaModel', 'imageAndTextMap', 'virtualImageAndTextModel', 'brandingModel', 'newService', 'favoriteData', 'extraToolModels', 'brandRootInfo']
+2025-10-19 22:52:38,051 - DEBUG - detail ключи: ['spuId', 'isSelf', 'categoryId', 'level1CategoryId', 'level2CategoryId', 'brandId', 'relationBrandIds', 'logoUrl', 'title', 'subTitle']
+2025-10-19 22:52:38,051 - INFO - ✓ Количество SKU: 14
+2025-10-19 22:52:38,051 - INFO - ✓ Все данные получены в одном запросе (productDetailWithPrice)
+2025-10-19 22:52:38,066 - INFO - ЭТАП 2: Обработка данных через ProductProcessor...
+2025-10-19 22:52:38,066 - INFO - Передаем reference_sku_id: 628944805
+2025-10-19 22:52:38,066 - INFO - Категории: [119, 1182]
+2025-10-19 22:52:38,067 - INFO - ✓ Данные обработаны, ключи: ['spu_id', 'title', 'brand', 'category', 'category_id', 'article_number', 'main_image_url', 'images', 'variants', 'is_active']
+2025-10-19 22:52:38,067 - INFO - Название товара: DRACONITE Logo PU
+2025-10-19 22:52:38,067 - INFO - Бренд: DRACONITE
+2025-10-19 22:52:38,067 - INFO - ✓ Получено вариантов: 2
+2025-10-19 22:52:38,068 - DEBUG -   Вариант 1: размер=无礼盒, цена=213.0 CNY
+2025-10-19 22:52:38,068 - DEBUG -   Вариант 2: размер=街瘾礼盒, цена=223.0 CNY
+2025-10-19 22:52:38,068 - INFO - ЭТАП 4: Сохранение в БД...
+2025-10-19 22:52:38,089 - INFO - ✓ УСПЕХ: Данные сохранены в БД
+2025-10-19 22:52:38,089 - INFO - Название (краткое): DRACONITE Logo PU
+2025-10-19 22:52:38,089 - INFO - ================================================================================
+
+2025-10-19 22:52:40,091 - INFO - 
+================================================================================
+2025-10-19 22:52:40,091 - INFO - [15/61] НАЧАЛО ОБРАБОТКИ
+2025-10-19 22:52:40,091 - INFO - Product ID: 1907
+2025-10-19 22:52:40,091 - INFO - SPU ID: 5376057
+2025-10-19 22:52:40,091 - INFO - Reference SKU ID: 837634324
+2025-10-19 22:52:40,091 - INFO - ================================================================================
+2025-10-19 22:52:40,091 - INFO - ЭТАП 1: Загрузка данных из API (productDetailWithPrice)...
+2025-10-19 22:52:41,954 - INFO - ✓ Данные загружены, ключи верхнего уровня: ['modelSequence', 'price', 'lastSold', 'image', 'frontLabelSummaryDTO', 'basicParam', 'floorsModel', 'qaModel', 'imageAndTextMap', 'virtualImageAndTextModel', 'brandingModel', 'newService', 'favoriteData', 'extraToolModels', 'brandRootInfo']
+2025-10-19 22:52:41,954 - DEBUG - detail ключи: ['spuId', 'isSelf', 'categoryId', 'level1CategoryId', 'level2CategoryId', 'brandId', 'relationBrandIds', 'logoUrl', 'title', 'subTitle']
+2025-10-19 22:52:41,954 - INFO - ✓ Количество SKU: 14
+2025-10-19 22:52:41,954 - INFO - ✓ Все данные получены в одном запросе (productDetailWithPrice)
+2025-10-19 22:52:41,966 - INFO - ЭТАП 2: Обработка данных через ProductProcessor...
+2025-10-19 22:52:41,966 - INFO - Передаем reference_sku_id: 837634324
+2025-10-19 22:52:41,966 - INFO - Категории: [119, 1182]
+2025-10-19 22:52:41,967 - INFO - ✓ Данные обработаны, ключи: ['spu_id', 'title', 'brand', 'category', 'category_id', 'article_number', 'main_image_url', 'images', 'variants', 'is_active']
+2025-10-19 22:52:41,967 - INFO - Название товара: DRACONITE Logo PU
+2025-10-19 22:52:41,967 - INFO - Бренд: DRACONITE
+2025-10-19 22:52:41,967 - INFO - ✓ Получено вариантов: 2
+2025-10-19 22:52:41,967 - DEBUG -   Вариант 1: размер=无礼盒, цена=242.0 CNY
+2025-10-19 22:52:41,967 - DEBUG -   Вариант 2: размер=街瘾礼盒, цена=239.0 CNY
+2025-10-19 22:52:41,967 - INFO - ЭТАП 4: Сохранение в БД...
+2025-10-19 22:52:41,978 - INFO - ✓ УСПЕХ: Данные сохранены в БД
+2025-10-19 22:52:41,979 - INFO - Название (краткое): DRACONITE Logo PU
+2025-10-19 22:52:41,979 - INFO - ================================================================================
+
+2025-10-19 22:52:43,980 - INFO - 
+================================================================================
+2025-10-19 22:52:43,980 - INFO - [16/61] НАЧАЛО ОБРАБОТКИ
+2025-10-19 22:52:43,980 - INFO - Product ID: 1908
+2025-10-19 22:52:43,980 - INFO - SPU ID: 7695787
+2025-10-19 22:52:43,980 - INFO - Reference SKU ID: 644116183
+2025-10-19 22:52:43,980 - INFO - ================================================================================
+2025-10-19 22:52:43,980 - INFO - ЭТАП 1: Загрузка данных из API (productDetailWithPrice)...
+2025-10-19 22:52:46,147 - INFO - ✓ Данные загружены, ключи верхнего уровня: ['modelSequence', 'price', 'lastSold', 'image', 'frontLabelSummaryDTO', 'basicParam', 'floorsModel', 'qaModel', 'imageAndTextMap', 'virtualImageAndTextModel', 'brandingModel', 'newService', 'favoriteData', 'extraToolModels', 'brandRootInfo']
+2025-10-19 22:52:46,148 - DEBUG - detail ключи: ['spuId', 'isSelf', 'categoryId', 'level1CategoryId', 'level2CategoryId', 'brandId', 'relationBrandIds', 'logoUrl', 'title', 'subTitle']
+2025-10-19 22:52:46,148 - INFO - ✓ Количество SKU: 1
+2025-10-19 22:52:46,148 - INFO - ✓ Все данные получены в одном запросе (productDetailWithPrice)
+2025-10-19 22:52:46,158 - INFO - ЭТАП 2: Обработка данных через ProductProcessor...
+2025-10-19 22:52:46,158 - INFO - Передаем reference_sku_id: 644116183
+2025-10-19 22:52:46,158 - INFO - Категории: [119, 1182]
+2025-10-19 22:52:46,159 - ERROR - parse_product_detail вернул None
+2025-10-19 22:52:46,159 - ERROR - Возможные причины:
+2025-10-19 22:52:46,159 - ERROR -   - Нет товаров с допустимыми типами цен (2, 12, 0, 8, 11)
+2025-10-19 22:52:46,159 - ERROR -   - Все SKU отфильтрованы
+2025-10-19 22:52:46,159 - ERROR -   - Ошибка в структуре данных
+2025-10-19 22:52:46,161 - ERROR - ✗ ОШИБКА: Ошибка обработки данных
+2025-10-19 22:52:46,161 - ERROR - Полный traceback:
+2025-10-19 22:52:46,161 - ERROR - Traceback (most recent call last):
+  File "/Users/rishsh/PycharmProjects/PlummyScraper/commands/articles.py", line 541, in load_all_data
+    raise Exception("Ошибка обработки данных")
+Exception: Ошибка обработки данных
+
+2025-10-19 22:52:46,161 - INFO - ================================================================================
+
+2025-10-19 22:52:48,166 - INFO - 
+================================================================================
+2025-10-19 22:52:48,167 - INFO - [17/61] НАЧАЛО ОБРАБОТКИ
+2025-10-19 22:52:48,167 - INFO - Product ID: 1909
+2025-10-19 22:52:48,168 - INFO - SPU ID: 15224834
+2025-10-19 22:52:48,168 - INFO - Reference SKU ID: 729603485
+2025-10-19 22:52:48,168 - INFO - ================================================================================
+2025-10-19 22:52:48,168 - INFO - ЭТАП 1: Загрузка данных из API (productDetailWithPrice)...
+2025-10-19 22:52:49,515 - INFO - ✓ Данные загружены, ключи верхнего уровня: ['modelSequence', 'price', 'lastSold', 'image', 'frontLabelSummaryDTO', 'basicParam', 'floorsModel', 'qaModel', 'imageAndTextMap', 'virtualImageAndTextModel', 'brandingModel', 'newService', 'favoriteData', 'extraToolModels', 'brandRootInfo']
+2025-10-19 22:52:49,515 - DEBUG - detail ключи: ['spuId', 'isSelf', 'categoryId', 'level1CategoryId', 'level2CategoryId', 'brandId', 'relationBrandIds', 'logoUrl', 'title', 'subTitle']
+2025-10-19 22:52:49,515 - INFO - ✓ Количество SKU: 1
+2025-10-19 22:52:49,515 - INFO - ✓ Все данные получены в одном запросе (productDetailWithPrice)
+2025-10-19 22:52:49,526 - INFO - ЭТАП 2: Обработка данных через ProductProcessor...
+2025-10-19 22:52:49,527 - INFO - Передаем reference_sku_id: 729603485
+2025-10-19 22:52:49,527 - INFO - Категории: [119, 1182]
+2025-10-19 22:52:49,527 - INFO - ✓ Данные обработаны, ключи: ['spu_id', 'title', 'brand', 'category', 'category_id', 'article_number', 'main_image_url', 'images', 'variants', 'is_active']
+2025-10-19 22:52:49,528 - INFO - Название товара: Jordan
+2025-10-19 22:52:49,528 - INFO - Бренд: Jordan
+2025-10-19 22:52:49,528 - INFO - ✓ Получено вариантов: 1
+2025-10-19 22:52:49,528 - DEBUG -   Вариант 1: размер=ONE SIZE, цена=319.0 CNY
+2025-10-19 22:52:49,528 - INFO - ЭТАП 4: Сохранение в БД...
+2025-10-19 22:52:49,561 - ERROR - db.load_product_data вернул False
+2025-10-19 22:52:49,561 - ERROR - ✗ ОШИБКА: Ошибка сохранения в БД
+2025-10-19 22:52:49,561 - ERROR - Полный traceback:
+2025-10-19 22:52:49,561 - ERROR - Traceback (most recent call last):
+  File "/Users/rishsh/PycharmProjects/PlummyScraper/commands/articles.py", line 574, in load_all_data
+    raise Exception("Ошибка сохранения в БД")
+Exception: Ошибка сохранения в БД
+
+2025-10-19 22:52:49,561 - INFO - ================================================================================
+
+2025-10-19 22:52:51,562 - INFO - 
+================================================================================
+2025-10-19 22:52:51,562 - INFO - [18/61] НАЧАЛО ОБРАБОТКИ
+2025-10-19 22:52:51,562 - INFO - Product ID: 1910
+2025-10-19 22:52:51,562 - INFO - SPU ID: 18848873
+2025-10-19 22:52:51,562 - INFO - Reference SKU ID: 787964947
+2025-10-19 22:52:51,562 - INFO - ================================================================================
+2025-10-19 22:52:51,562 - INFO - ЭТАП 1: Загрузка данных из API (productDetailWithPrice)...
+2025-10-19 22:52:52,838 - INFO - ✓ Данные загружены, ключи верхнего уровня: ['modelSequence', 'price', 'lastSold', 'image', 'frontLabelSummaryDTO', 'basicParam', 'floorsModel', 'qaModel', 'imageAndTextMap', 'virtualImageAndTextModel', 'brandingModel', 'newService', 'favoriteData', 'extraToolModels', 'brandRootInfo']
+2025-10-19 22:52:52,838 - DEBUG - detail ключи: ['spuId', 'isSelf', 'categoryId', 'level1CategoryId', 'level2CategoryId', 'brandId', 'relationBrandIds', 'logoUrl', 'title', 'subTitle']
+2025-10-19 22:52:52,838 - INFO - ✓ Количество SKU: 1
+2025-10-19 22:52:52,838 - INFO - ✓ Все данные получены в одном запросе (productDetailWithPrice)
+2025-10-19 22:52:52,847 - INFO - ЭТАП 2: Обработка данных через ProductProcessor...
+2025-10-19 22:52:52,847 - INFO - Передаем reference_sku_id: 787964947
+2025-10-19 22:52:52,847 - INFO - Категории: [119, 1182]
+2025-10-19 22:52:52,847 - INFO - ✓ Данные обработаны, ключи: ['spu_id', 'title', 'brand', 'category', 'category_id', 'article_number', 'main_image_url', 'images', 'variants', 'is_active']
+2025-10-19 22:52:52,847 - INFO - Название товара: PVC
+2025-10-19 22:52:52,847 - INFO - Бренд: 
+2025-10-19 22:52:52,847 - INFO - ✓ Получено вариантов: 1
+2025-10-19 22:52:52,847 - DEBUG -   Вариант 1: размер=ONE SIZE, цена=379.0 CNY
+2025-10-19 22:52:52,847 - INFO - ЭТАП 4: Сохранение в БД...
+2025-10-19 22:52:52,851 - ERROR - db.load_product_data вернул False
+2025-10-19 22:52:52,852 - ERROR - ✗ ОШИБКА: Ошибка сохранения в БД
+2025-10-19 22:52:52,852 - ERROR - Полный traceback:
+2025-10-19 22:52:52,852 - ERROR - Traceback (most recent call last):
+  File "/Users/rishsh/PycharmProjects/PlummyScraper/commands/articles.py", line 574, in load_all_data
+    raise Exception("Ошибка сохранения в БД")
+Exception: Ошибка сохранения в БД
+
+2025-10-19 22:52:52,852 - INFO - ================================================================================
+
+2025-10-19 22:52:54,854 - INFO - 
+================================================================================
+2025-10-19 22:52:54,854 - INFO - [19/61] НАЧАЛО ОБРАБОТКИ
+2025-10-19 22:52:54,854 - INFO - Product ID: 1911
+2025-10-19 22:52:54,854 - INFO - SPU ID: 12741064
+2025-10-19 22:52:54,854 - INFO - Reference SKU ID: 691752694
+2025-10-19 22:52:54,854 - INFO - ================================================================================
+2025-10-19 22:52:54,855 - INFO - ЭТАП 1: Загрузка данных из API (productDetailWithPrice)...
+2025-10-19 22:52:56,435 - INFO - ✓ Данные загружены, ключи верхнего уровня: ['modelSequence', 'price', 'lastSold', 'image', 'frontLabelSummaryDTO', 'basicParam', 'floorsModel', 'qaModel', 'imageAndTextMap', 'virtualImageAndTextModel', 'brandingModel', 'newService', 'favoriteData', 'extraToolModels', 'brandRootInfo']
+2025-10-19 22:52:56,435 - DEBUG - detail ключи: ['spuId', 'isSelf', 'categoryId', 'level1CategoryId', 'level2CategoryId', 'brandId', 'relationBrandIds', 'logoUrl', 'title', 'subTitle']
+2025-10-19 22:52:56,435 - INFO - ✓ Количество SKU: 1
+2025-10-19 22:52:56,435 - INFO - ✓ Все данные получены в одном запросе (productDetailWithPrice)
+2025-10-19 22:52:56,449 - INFO - ЭТАП 2: Обработка данных через ProductProcessor...
+2025-10-19 22:52:56,450 - INFO - Передаем reference_sku_id: 691752694
+2025-10-19 22:52:56,450 - INFO - Категории: [119, 1182]
+2025-10-19 22:52:56,451 - ERROR - parse_product_detail вернул None
+2025-10-19 22:52:56,451 - ERROR - Возможные причины:
+2025-10-19 22:52:56,451 - ERROR -   - Нет товаров с допустимыми типами цен (2, 12, 0, 8, 11)
+2025-10-19 22:52:56,451 - ERROR -   - Все SKU отфильтрованы
+2025-10-19 22:52:56,451 - ERROR -   - Ошибка в структуре данных
+2025-10-19 22:52:56,453 - ERROR - ✗ ОШИБКА: Ошибка обработки данных
+2025-10-19 22:52:56,453 - ERROR - Полный traceback:
+2025-10-19 22:52:56,453 - ERROR - Traceback (most recent call last):
+  File "/Users/rishsh/PycharmProjects/PlummyScraper/commands/articles.py", line 541, in load_all_data
+    raise Exception("Ошибка обработки данных")
+Exception: Ошибка обработки данных
+
+2025-10-19 22:52:56,453 - INFO - ================================================================================
+
+2025-10-19 22:52:58,454 - INFO - 
+================================================================================
+2025-10-19 22:52:58,455 - INFO - [20/61] НАЧАЛО ОБРАБОТКИ
+2025-10-19 22:52:58,455 - INFO - Product ID: 1912
+2025-10-19 22:52:58,455 - INFO - SPU ID: 1644249
+2025-10-19 22:52:58,455 - INFO - Reference SKU ID: 604026828
+2025-10-19 22:52:58,455 - INFO - ================================================================================
+2025-10-19 22:52:58,455 - INFO - ЭТАП 1: Загрузка данных из API (productDetailWithPrice)...
+2025-10-19 22:52:59,833 - INFO - ✓ Данные загружены, ключи верхнего уровня: ['modelSequence', 'price', 'lastSold', 'image', 'frontLabelSummaryDTO', 'basicParam', 'floorsModel', 'qaModel', 'imageAndTextMap', 'virtualImageAndTextModel', 'brandingModel', 'newService', 'favoriteData', 'extraToolModels', 'brandRootInfo']
+2025-10-19 22:52:59,834 - DEBUG - detail ключи: ['spuId', 'isSelf', 'categoryId', 'level1CategoryId', 'level2CategoryId', 'brandId', 'relationBrandIds', 'logoUrl', 'title', 'subTitle']
+2025-10-19 22:52:59,834 - INFO - ✓ Количество SKU: 4
+2025-10-19 22:52:59,834 - INFO - ✓ Все данные получены в одном запросе (productDetailWithPrice)
+2025-10-19 22:52:59,842 - INFO - ЭТАП 2: Обработка данных через ProductProcessor...
+2025-10-19 22:52:59,843 - INFO - Передаем reference_sku_id: 604026828
+2025-10-19 22:52:59,843 - INFO - Категории: [119, 1182]
+2025-10-19 22:52:59,844 - INFO - ✓ Данные обработаны, ключи: ['spu_id', 'title', 'brand', 'category', 'category_id', 'article_number', 'main_image_url', 'images', 'variants', 'is_active']
+2025-10-19 22:52:59,844 - INFO - Название товара: SPRAYGROUND SG
+2025-10-19 22:52:59,844 - INFO - Бренд: SPRAYGROUND
+2025-10-19 22:52:59,844 - INFO - ✓ Получено вариантов: 1
+2025-10-19 22:52:59,844 - DEBUG -   Вариант 1: размер=ONE SIZE, цена=449.0 CNY
+2025-10-19 22:52:59,844 - INFO - ЭТАП 4: Сохранение в БД...
+2025-10-19 22:52:59,855 - ERROR - db.load_product_data вернул False
+2025-10-19 22:52:59,856 - ERROR - ✗ ОШИБКА: Ошибка сохранения в БД
+2025-10-19 22:52:59,856 - ERROR - Полный traceback:
+2025-10-19 22:52:59,856 - ERROR - Traceback (most recent call last):
+  File "/Users/rishsh/PycharmProjects/PlummyScraper/commands/articles.py", line 574, in load_all_data
+    raise Exception("Ошибка сохранения в БД")
+Exception: Ошибка сохранения в БД
+
+2025-10-19 22:52:59,856 - INFO - ================================================================================
+
+2025-10-19 22:53:01,857 - INFO - 
+================================================================================
+2025-10-19 22:53:01,858 - INFO - [21/61] НАЧАЛО ОБРАБОТКИ
+2025-10-19 22:53:01,858 - INFO - Product ID: 1913
+2025-10-19 22:53:01,858 - INFO - SPU ID: 3794232
+2025-10-19 22:53:01,858 - INFO - Reference SKU ID: 617412521
+2025-10-19 22:53:01,858 - INFO - ================================================================================
+2025-10-19 22:53:01,858 - INFO - ЭТАП 1: Загрузка данных из API (productDetailWithPrice)...

@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "plummyscraper"
+version = "0.1.0"
+description = ""
+authors = ["viktor.vanin <vanin.vic@gmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+aiohttp = "^3.12.6"
+python-dotenv = "^1.1.0"
+sqlalchemy = "^2.0.0"
+click = "^8.1.7"
+tabulate = "^0.9.0"
+
+[tool.poetry.scripts]
+plummy = "cli:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
