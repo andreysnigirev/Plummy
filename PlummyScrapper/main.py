@@ -3,6 +3,9 @@
 PlummyScraper - Интерактивная оболочка
 Запустите программу и вводите команды в терминале
 """
+from fastapi import FastAPI
+app = FastAPI()
+
 import cmd
 import sys
 import os
